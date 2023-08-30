@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbf44e61.css",
-    "main.js": "/static/js/main.5fc28492.js",
+    "main.css": "/static/css/main.46d30886.css",
+    "main.js": "/static/js/main.f5fae2c2.js",
     "static/media/pjlogo.png": "/static/media/pjlogo.fddf54f26ee46911775e.png",
     "index.html": "/index.html",
-    "main.dbf44e61.css.map": "/static/css/main.dbf44e61.css.map",
-    "main.5fc28492.js.map": "/static/js/main.5fc28492.js.map"
+    "main.46d30886.css.map": "/static/css/main.46d30886.css.map",
+    "main.f5fae2c2.js.map": "/static/js/main.f5fae2c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbf44e61.css",
-    "static/js/main.5fc28492.js"
+    "static/css/main.46d30886.css",
+    "static/js/main.f5fae2c2.js"
   ]
 }
