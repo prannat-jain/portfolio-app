@@ -11,17 +11,17 @@ const About = () => {
             </p>
           </div>
           <div></div>
-          <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-            <div className="sm:text-right text-4xl font-bold">
-              <p>
-                I am a Computer Science student at the Dalhousie University.
-                I've had experience with full stack development, DevOps
-                Engineering, research and much more!
-              </p>
-            </div>
-            <div className="">
-              <p>Please have a look around</p>
-            </div>
+        </div>
+        <div className="max-w-[1000px] w-full sm:grid grid-cols-2 gap-8 px-4">
+          <div className="sm:text-right text-4xl font-bold">
+            <p>Please have a look around!</p>
+          </div>
+          <div className="">
+            <p>
+              I am a Computer Science student at the Dalhousie University. I've
+              had experience with full stack development, DevOps Engineering,
+              research and much more!
+            </p>
           </div>
         </div>
       </div>
