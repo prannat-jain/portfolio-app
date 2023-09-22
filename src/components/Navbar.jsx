@@ -59,7 +59,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/prannat-jain/"
+              href="https://www.github.com/prannat-jain/"
             >
               Github <FaGithub size={30} />
             </a>
@@ -68,9 +68,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hver:ml-[-10px] duration-300 bg-[#ff4f4f]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/prannat-jain/"
+              href="mailto:prannatj@dal.ca"
             >
-              Linkedin <HiOutlineMail size={30} />
+              Email <HiOutlineMail size={30} />
             </a>
           </li>
 

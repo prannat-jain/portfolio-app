@@ -12,6 +12,7 @@ function App() {
       <About />
       <Skills />
       <Experience />
+      <h1>This website is under development. Be back for more soon!</h1>
     </div>
   );
 }
