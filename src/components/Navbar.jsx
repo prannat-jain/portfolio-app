@@ -16,12 +16,24 @@ const Navbar = () => {
         <img src={Logo} alt="logo" style={{ width: "50px" }} />
       </div>
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
 
       {/* Mobile Menu hamburger */}
@@ -36,12 +48,24 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0c3014] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Experience</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          <a href="#home">Home</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="#about">About</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="#skills">Skills</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="#experience">Experience</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="#projects">Projects</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
 
       {/* Icons */}

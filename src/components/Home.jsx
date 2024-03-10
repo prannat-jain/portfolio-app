@@ -11,7 +11,8 @@ const Home = () => {
           Prannat
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#9cad94]">
-          I'm a Computer Science student.
+          I'm a Computer Science student. Incoming SDE Intern at Nasdaq,
+          Research and Teaching Assistant at Dalhousie University.
         </h2>
         <p className="text-[#7a8874] py-4 max-w-[700px]">
           I have experience with full stack development, DevOps Engineering,
