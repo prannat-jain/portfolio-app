@@ -11,12 +11,11 @@ const Home = () => {
           Prannat
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#9cad94]">
-          I'm a Computer Science student. Incoming SDE Intern at Nasdaq,
-          Research and Teaching Assistant at Dalhousie University.
+          I'm a Computer Science student.
         </h2>
         <p className="text-[#7a8874] py-4 max-w-[700px]">
-          I have experience with full stack development, DevOps Engineering,
-          research and much more!
+          Incoming SDE Intern at Nasdaq, Research and Teaching Assistant at
+          Dalhousie University.
         </p>
         <div>
           <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#58ee91] hover:border-[#177c41]">

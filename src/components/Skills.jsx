@@ -22,7 +22,8 @@ const Skills = () => {
             Skills
           </p>
           <p className="py-4">
-            Technologies I have used in various projects, jobs and internships
+            I have experience with full stack development, DevOps Engineering,
+            research and much more!
           </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
