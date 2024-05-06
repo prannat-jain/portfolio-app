@@ -3,6 +3,7 @@ import Logo from "../assets/pjlogo.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import scrollTo from "../utils/scrollTo";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,23 +17,23 @@ const Navbar = () => {
         <img src={Logo} alt="logo" style={{ width: "50px" }} />
       </div>
       <ul className="hidden md:flex">
-        <li>
-          <a href="#home">Home</a>
+        <li  onClick={()=> scrollTo("home")}>
+          Home
         </li>
-        <li>
-          <a href="#about">About</a>
+        <li onClick={()=> scrollTo("about")}> 
+          About
         </li>
-        <li>
-          <a href="#skills">Skills</a>
+        <li onClick={()=> scrollTo("skills")}>
+          Skills
         </li>
-        <li>
-          <a href="#experience">Experience</a>
+        <li onClick={()=> scrollTo("experience")}>
+          Experience
         </li>
-        <li>
-          <a href="#projects">Projects</a>
+        <li  onClick={()=> scrollTo("projects")}>
+          Projects and Achievements
         </li>
-        <li>
-          <a href="#contact">Contact</a>
+        <li  onClick={()=> scrollTo("contact")}>
+         Contact
         </li>
       </ul>
 
@@ -61,7 +62,7 @@ const Navbar = () => {
           <a href="#experience">Experience</a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#projects">Projects</a>
+          <a href="#projects">Projects and Achievements</a>
         </li>
         <li className="py-6 text-4xl">
           <a href="#contact">Contact</a>

@@ -3,6 +3,7 @@ import Experience from "./components/Experience";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <About />
       <Skills />
       <Experience />
-      <h1>This website is under development. Be back for more soon!</h1>
+      <Projects />
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import scrollTo from "../utils/scrollTo"
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0c3014]">
+    <div name="home" id="home" className="w-full h-screen bg-[#0c3014]">
       {/*Container*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#56da82]">Hi, my name is</p>
@@ -18,7 +19,7 @@ const Home = () => {
           Dalhousie University.
         </p>
         <div>
-          <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#58ee91] hover:border-[#177c41]">
+          <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#58ee91] hover:border-[#177c41]" onClick={()=> scrollTo("projects")}>
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3"></HiArrowNarrowRight>
