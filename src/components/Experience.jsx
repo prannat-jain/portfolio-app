@@ -37,8 +37,7 @@ const Experience = () => {
             <ul className="list-disc list-inside">
             <li>Developing android and ios mobile applications using flutter, Java and Swift for their flagship application at the Labs.</li>
             <li>Creating dashboards using React.js, Node.js, and MongoDB for data presentation and analysis.</li>
-            <li>Working on creating an encryption apparatus for data using asymmetric and symmetric public and private keys}
-</li>
+            <li>Working on creating an encryption apparatus for data using asymmetric and symmetric public and private keys</li>
             <li>Developing an AI/ML computer vision program using tensorflow, OpenCV and yolo.</li>
             </ul>
 
