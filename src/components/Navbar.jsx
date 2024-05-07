@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/pjlogo.png";
+import Logo from "../assets/pjlogonew.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
