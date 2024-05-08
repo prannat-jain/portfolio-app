@@ -46,7 +46,7 @@ const Experience = () => {
   }, []);
 
   return (
-    <div className="w-full text-gray-300 bg-[#0c3014]">
+    <div className="w-full text-gray-300 bg-[#0c3014]" id="experience">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-center">Experience</h1>
         <div className="flex flex-col items-center mt-8">

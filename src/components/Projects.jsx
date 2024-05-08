@@ -35,7 +35,7 @@ const Projects = () => {
         <li>Developed an augmented reality powered program to support chemistry learning at Dalhousie University.</li>
         <li>Practiced Agile/Scrum and designed custom APIs using node.js to perform interactive molecule lookup using QR codes.</li>
         </ul>
-        <a href="https://www.google.com" className="text-blue-500">Read More</a>
+        <a href="https://dalchemar.azurewebsites.net/" className="text-blue-500">Read More</a>
         </div>
 
         <div className="p-4 rounded-lg">
@@ -46,7 +46,7 @@ const Projects = () => {
         <li>Created a web service where consumers and businesses can buy valuable scrap, by‑products, and waste materials</li>
         <li>Hosted on AWS EC2 with NGINX proxy and Node.js.</li>
         </ul>
-        <a href="https://www.google.com" className="text-blue-500">Read More</a>
+        <a href="https://github.com/prannat-jain/ScrapRadar-server" className="text-blue-500">Read More</a>
         </div>
 
         <div className="p-4 rounded-lg">
@@ -70,7 +70,7 @@ const Projects = () => {
         <li>Implemented bcrypt librarylibrary which enables password encryption for safe storage in MongoDB.</li>
         <li>Backend hosted on MongoDB, and Frontend built on React.js, client and server deployed on render.com.</li>
         </ul>
-        <a href="https://www.google.com" className="text-blue-500">Read More</a>
+        <a href="https://admin-frontend-dpva.onrender.com/" className="text-blue-500">Read More</a>
         </div>
 
         <div className="p-4 rounded-lg">
@@ -81,7 +81,7 @@ const Projects = () => {
         <li>Provides graphical representation and analysis of F1 car telemetry data in charts and line graphs.</li>
         <li>Uses open source APIs as per query in Python using matplotlib and fastf1 libraries.</li>
         </ul>
-        <a href="https://www.google.com" className="text-blue-500">Read More</a>
+        <a href="https://github.com/prannat-jain/FastF1" className="text-blue-500">Read More</a>
         </div>
 
         </div>
