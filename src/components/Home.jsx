@@ -19,7 +19,7 @@ const Home = () => {
           Dalhousie University.
         </p>
         <div>
-          <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#58ee91] hover:border-[#177c41]" onClick={()=> scrollTo("projects")}>
+          <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#58ee91] hover:border-[#177c41]" onClick={()=> scrollTo("experience")}>
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3"></HiArrowNarrowRight>
