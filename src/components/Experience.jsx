@@ -8,7 +8,7 @@ const experiences = [
     title: "Software Developer Intern",
     company: "Nasdaq Verafin",
     period: "May 2024 - Present",
-    details: ["Backend Development", "Cloud Deployment", "Testing", "Deployment"],
+    details: ["Collaborating with a team of software developers to solve challenging problems and write impactful code for Verafin's cloud-based product.", "Utilizing object-oriented programming and clean code principles to ensure high-quality software development.", "Developing proficiency in Amazon Web Services (AWS), database technologies (PostgreSQL), and big data technologies."],
   },
   {
     title: "Research Assistant",

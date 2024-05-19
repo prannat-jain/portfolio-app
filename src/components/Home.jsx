@@ -15,7 +15,7 @@ const Home = () => {
           I'm a Computer Science student.
         </h2>
         <p className="text-[#7a8874] py-4 max-w-[700px]">
-          Incoming SDE Intern at Nasdaq, Research and Teaching Assistant at
+          SDE Intern at Nasdaq, Research and Teaching Assistant at
           Dalhousie University.
         </p>
         <div>
