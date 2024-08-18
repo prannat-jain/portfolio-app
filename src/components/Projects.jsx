@@ -8,8 +8,17 @@ const Projects = () => {
         <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-center">Projects and Achievements</h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-8">
+            
         <div className="p-4 rounded-lg">
-        <h2 className="text-2xl font-bold">GenAI Hackathon</h2>
+        <h2 className="text-2xl font-bold">Nasdaq GenAI Hackathon and Challenge</h2>
+        <p className="text-sm">12-13th July 2024</p>
+        <p className="text-md mt-4"> </p>
+        <p className="text-md mt-4">Placed 3rd in the hackathon</p>
+        <a href="https://www.google.com" className="text-blue-500">Read More</a>
+        </div>
+
+        <div className="p-4 rounded-lg">
+        <h2 className="text-2xl font-bold">Ocean GenAI Hackathon</h2>
         <p className="text-sm">4-5th May 2024</p>
         <p className="text-md mt-4">Our team used audio sounds of marine animals, created a machine learning model which assisted with the classification of species and tracking of their movements for various benefits to the industry. </p>
         <p className="text-md mt-4">Placed 3rd in the hackathon</p>

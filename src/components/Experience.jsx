@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 const experiences = [
   {
     title: "Software Developer Intern",
-    company: "Nasdaq Verafin",
+    company: "Nasdaq",
     period: "May 2024 - Present",
     details: ["Collaborating with a team of software developers to solve challenging problems and write impactful code for Verafin's cloud-based product.", "Utilizing object-oriented programming and clean code principles to ensure high-quality software development.", "Developing proficiency in Amazon Web Services (AWS), database technologies (PostgreSQL), and big data technologies."],
   },
@@ -17,10 +17,10 @@ const experiences = [
     details: ["Developing android and ios mobile applications using flutter, Java and Swift for their flagship application at the Labs", "Creating dashboards using React.js, Node.js, and MongoDB for data presentation and analysis.", "Working on creating an encryption apparatus for data using asymmetric and symmetric public and private keys"],
   },
   {
-    title: "Teaching Assistant",
+    title: "Teaching Assistant and Marker",
     company: "Dalhousie University",
     period: "Sep 2023 - Present",
-    details: ["Assisted in the development of course materials and assignments for the course.", "Conducted tutorials and labs for students to help them understand the course material.", "Graded assignments and provided feedback to students."],
+    details: ["Assisting in the development of course materials and assignments for server side scripting and software development and testing.", "Conducted tutorials and labs for students to help them understand the course material.", "Graded assignments and provided feedback to students."],
   },
   {
     title: "Student Developer",
