@@ -15,7 +15,7 @@ function App() {
       <Skills />
       <Experience />
       <Projects />
-      <Contact/>
+      <Contact />
       <h3>This website is under development. Be back for more soon!</h3>
     </div>
   );

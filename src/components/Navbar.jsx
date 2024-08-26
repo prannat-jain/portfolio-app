@@ -3,7 +3,7 @@ import Logo from "../assets/pjlogonew.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import scrollTo from "../utils/scrollTo";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,23 +17,35 @@ const Navbar = () => {
         <img src={Logo} alt="logo" style={{ width: "50px" }} />
       </div>
       <ul className="hidden md:flex">
-        <li  onClick={()=> scrollTo("home")}>
-          Home
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
-        <li onClick={()=> scrollTo("about")}> 
-          About
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
-        <li onClick={()=> scrollTo("skills")}>
-          Skills
+        <li>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
         </li>
-        <li onClick={()=> scrollTo("experience")}>
-          Experience
+        <li>
+          <Link to="experience" smooth={true} duration={500}>
+            Experience
+          </Link>
         </li>
-        <li  onClick={()=> scrollTo("projects")}>
-          Projects and Achievements
+        <li>
+          <Link to="projects" smooth={true} duration={500}>
+            Projects and Achievements
+          </Link>
         </li>
-        <li  onClick={()=> scrollTo("contact")}>
-         Contact
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
 
@@ -50,22 +62,34 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <a href="#home">Home</a>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#about">About</a>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#skills">Skills</a>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#experience">Experience</a>
+          <Link onClick={handleClick} to="experience" smooth={true} duration={500}>
+            Experience
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#projects">Projects and Achievements</a>
+          <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+            Projects and Achievements
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#contact">Contact</a>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
 
