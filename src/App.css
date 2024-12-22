@@ -1,0 +1,11 @@
+/* App.css */
+.snapContainer {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.snapSection {
+  scroll-snap-align: start;
+  height: 100vh; /* optional, ensures full viewport sections */
+}
